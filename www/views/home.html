@@ -1,0 +1,19 @@
+<ion-pane>
+    <ion-header-bar class="bar-stable">
+    <h1 class="title">Home</h1>
+    </ion-header-bar>
+    <ion-content>
+        <!--Input-->
+        <div class="list list-inset">
+            <label class="item item-input">
+                <i class="icon ion-person placeholder-icon"></i>
+                <input type="text" ng-model="user" placeholder="Username">
+            </label>
+        </div>
+        <!--Button-->
+        <button ng-click="joinRoom(user)" class="button button-block button-positive">
+            Join Chatroom
+        </button>
+        
+    </ion-content>
+</ion-pane>
